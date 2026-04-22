@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+.venv_old/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Data files (too large for GitHub)
+data/
+tmp_dataset_check/
+
+# Model files (too large for GitHub)
+models/*.h5
+models/*.tflite
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Zip files
+*.zip
+
+# Pyright output
+pyright_errors.json
+pyright_output.txt
+
+# Pytest cache
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
